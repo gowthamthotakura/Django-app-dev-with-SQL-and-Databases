@@ -31,6 +31,7 @@ class QuestionAdmin(admin.ModelAdmin):
 class LessonAdmin(admin.ModelAdmin):
     list_display = ['title']
 
+
 # <HINT> Register Question and Choice models here
 
 admin.site.register(Course, CourseAdmin)
